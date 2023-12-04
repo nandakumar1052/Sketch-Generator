@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://nandakumar1052:$HF_TOKEN@huggingface.co/spaces/nandakumar1052/Sketch-Generator main
+        run: git push --force https://nandakumar1052:$HF_TOKEN@huggingface.co/spaces/nandakumar1052/Sketch-Generator main
