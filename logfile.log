@@ -1,0 +1,6 @@
+2023-12-04 22:42:07,304 Starting new HTTPS connection (1): m.media-amazon.com:443
+2023-12-04 22:42:07,573 https://m.media-amazon.com:443 "GET /images/I/81eUYDkAdcL.jpg HTTP/1.1" 200 469714
+2023-12-04 22:42:07,624 Valid http Url
+2023-12-04 22:42:07,658 Image was processed successfully
+2023-12-04 22:42:07,716 Image was converted successfully
+2023-12-04 22:42:07,718 Download Link created successfully
