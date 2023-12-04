@@ -62,10 +62,10 @@ def process_image(url_string,validation):
             with column1:
                 pass
             with column2:
-                st.image(upload, caption="Original Image", width=600, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+                st.image(upload, caption="Original Image",width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
             with column3:
                 if finalimg is not None:
-                    st.image(finalimg, caption="Final Image", width=600, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+                    st.image(finalimg, caption="Final Image",width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
                             
             with column4:
                 pass
@@ -151,3 +151,33 @@ def uploadfile():
         
 if __name__=="__main__":
     uploadfile()
+    footer="""<style>
+a:link , a:visited{
+color: #0000EE;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: #551A8B;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height:6%;
+background-color: rgba(0,0,0,10);
+color: white;
+text-align: center;
+border-radius:2px;
+}
+</style>
+<div class="footer">
+<p>Developed by <a style='display: block; text-align: center; text-decoration:none;' href="https://github.com/nandakumar1052" target="_blank">Nanda Kumar.T</a><p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)

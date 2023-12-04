@@ -1,6 +1,17 @@
-2023-12-04 22:42:07,304 Starting new HTTPS connection (1): m.media-amazon.com:443
-2023-12-04 22:42:07,573 https://m.media-amazon.com:443 "GET /images/I/81eUYDkAdcL.jpg HTTP/1.1" 200 469714
-2023-12-04 22:42:07,624 Valid http Url
-2023-12-04 22:42:07,658 Image was processed successfully
-2023-12-04 22:42:07,716 Image was converted successfully
-2023-12-04 22:42:07,718 Download Link created successfully
+2023-12-04 23:37:25,898 Starting new HTTPS connection (1): m.media-amazon.com:443
+2023-12-04 23:37:26,154 https://m.media-amazon.com:443 "GET /images/I/91jrpkEN4cL.png HTTP/1.1" 200 598671
+2023-12-04 23:37:26,167 STREAM b'IHDR' 16 13
+2023-12-04 23:37:26,167 STREAM b'sRGB' 41 1
+2023-12-04 23:37:26,167 STREAM b'gAMA' 54 4
+2023-12-04 23:37:26,167 STREAM b'pHYs' 70 9
+2023-12-04 23:37:26,167 STREAM b'tEXt' 91 68
+2023-12-04 23:37:26,167 STREAM b'tEXt' 171 19
+2023-12-04 23:37:26,167 STREAM b'IDAT' 202 65334
+2023-12-04 23:37:26,167 Valid http Url
+2023-12-04 23:37:26,238 STREAM b'IHDR' 16 13
+2023-12-04 23:37:26,238 STREAM b'IDAT' 41 65536
+2023-12-04 23:37:26,238 STREAM b'IHDR' 16 13
+2023-12-04 23:37:26,238 STREAM b'IDAT' 41 65536
+2023-12-04 23:37:26,241 Image was processed successfully
+2023-12-04 23:37:26,253 Image was converted successfully
+2023-12-04 23:37:26,253 Download Link created successfully
